@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity
     */
 
 
-
+    /**
     private void displayselected(int id){
 
         Fragment fragment = null;
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
 
                /* Intent i = new Intent(getApplicationContext(),ProfileUser.class);
                 startActivity(i);
-                fragment = new profile();*/
+                fragment = new profile();
 
 
                 FragmentManager fm = getFragmentManager();
@@ -114,15 +114,29 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
     }
-
+    */
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        displayselected(id);
+        if (id == R.id.home) {
+            // Handle the camera action
+        } else if (id == R.id.products) {
+
+        } else if (id == R.id.trainingsjobs) {
+
+        } else if (id == R.id.profile) {
+
+        } else if (id == R.id.refer) {
+
+        } else if (id == R.id.aboutus) {
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
 }
