@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g1">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/trolley"
+            android:title="Products" />
+        <item
+            android:id="@+id/trainingsjobs"
+            android:icon="@drawable/working"
+            android:title="Jobs &amp; Trainings" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Profile" />
+
+    </group>
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g2">
+        <item
+            android:id="@+id/refer"
+            android:icon="@drawable/refer"
+            android:title="Refer and Earn" />
+
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/rar"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="Rate/Review" />
+
+
+
+
+
+    </group>
+
+
+</menu>

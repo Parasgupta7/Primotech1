@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629170476209",
+    "firebase_url": "https://primotech-cb34f.firebaseio.com",
+    "project_id": "primotech-cb34f",
+    "storage_bucket": "primotech-cb34f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629170476209:android:b4914329acd1a1c9",
+        "android_client_info": {
+          "package_name": "com.example.paras.primotech1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629170476209-6btsiirfve6gv0bb9cfh6mfc2te8qrjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paras.primotech1",
+            "certificate_hash": "08b7a6f7b75c7f9b2c66e24c9512fbe4ce8cd880"
+          }
+        },
+        {
+          "client_id": "629170476209-f18ofhrc6q19mvhi04nounghn06b9ljl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeJNhrycRsZ98w1AnYsCt4MTcbEHNm3yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629170476209-f18ofhrc6q19mvhi04nounghn06b9ljl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
